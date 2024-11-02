@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Poppins";
+    src:
+      local("Poppins"),
+      url("../public/fonts/poppins/Poppins-Regular.woff") format("woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Poppins SemiBold";
+    src:
+      local("Poppins SemiBold"),
+      url("../public/fonts/poppins/Poppins-SemiBold.woff") format("woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Tinos Bold";
+    src:
+      local("Tinos Bold"),
+      url("../public/fonts/tinos/Tinos-Bold.woff") format("woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway Bold";
+    src:
+      local("Raleway Bold"),
+      url("../public/fonts/raleway/Raleway-Bold.woff") format("woff");
+    font-display: swap;
+  }
+}
+
+@layer components {
+  .auth {
+    @apply h-[3.125rem] w-28 rounded-[133px] text-sm text-white;
+  }
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}

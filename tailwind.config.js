@@ -8,6 +8,17 @@ export default {
       },
       colors: {
         primary: "#FF8A00", // Orange
+        white: "#fff",
+        green: "#3FA72F",
+        lightGreen: "#3FC66E",
+        textColor: "#311F09",
+      },
+
+      fontFamily: {
+        Poppins: "Poppins",
+        PoppinsSemiBold: "Poppins SemiBold",
+        TinosBold: "Tinos Bold",
+        RalewayBold: "Raleway Bold",
       },
 
       container: {
